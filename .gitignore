@@ -1,0 +1,30 @@
+# Python-специфичные файлы
+__pycache__/
+*.pyc
+*.pyd
+dist/
+build/
+eggs/
+.egg-info/
+venv/
+env/
+*/__pycache__/
+
+# Файлы конфигурации (если не хотите их коммитить)
+.env
+config.ini
+secrets.json
+
+# Временные файлы и логи
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Файлы IDE (зависит от вашей IDE)
+.idea/
+.vscode/
+
+# Системные файлы (могут быть специфичны для ОС)
+Thumbs.db
+.DS_Store
